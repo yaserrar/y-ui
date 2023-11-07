@@ -1,4 +1,4 @@
-import Generate from "./Generate";
+import Generate from "@/components/Generate";
 
 export default function page() {
   return (
