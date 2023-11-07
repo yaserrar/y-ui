@@ -11,7 +11,7 @@ export async function POST(req: Request) {
     const data = promptSchema.parse(json);
 
     const response = await openai.chat.completions.create({
-      model: "gpt-4-0613",
+      model: "gpt-3.5-turbo",
       messages: [
         {
           role: "system",

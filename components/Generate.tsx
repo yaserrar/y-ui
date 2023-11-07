@@ -29,10 +29,10 @@ const Generate = () => {
     if (res.ok) {
       const data = await res.json();
       setCode(data);
-      setLoading(false);
     } else {
       setError("Error while generating");
     }
+    setLoading(false);
   };
 
   const submit = (e: FormEvent<HTMLFormElement>) => {
@@ -49,10 +49,10 @@ const Generate = () => {
     if (res.ok) {
       const data = await res.json();
       setCode(data);
-      setEditLoading(false);
     } else {
       setError("Error while modifiying");
     }
+    setEditLoading(false);
   };
 
   const submitEdit = (e: FormEvent<HTMLFormElement>) => {

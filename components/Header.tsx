@@ -17,22 +17,10 @@ const Header = () => {
         </Link>
         <section className="gap-3 items-center hidden md:flex">
           <Link
-            href="/"
+            href="https://github.com/yaserrar/y-ui"
             className={cn(buttonVariants({ variant: "link", size: "default" }))}
           >
-            Home
-          </Link>
-          <Link
-            href="/#about-us"
-            className={cn(buttonVariants({ variant: "link", size: "default" }))}
-          >
-            About Us
-          </Link>
-          <Link
-            href="/#contact-us"
-            className={cn(buttonVariants({ variant: "link", size: "default" }))}
-          >
-            Contact Us
+            Github
           </Link>
         </section>
         <div className="flex items-center gap-3">
