@@ -23,7 +23,6 @@ export default function RootLayout({
         <NextThemeProvider>
           <Header />
           <div className="container max-w-7xl">{children}</div>
-          {/* <Footer /> */}
         </NextThemeProvider>
       </body>
     </html>
